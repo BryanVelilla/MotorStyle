@@ -1,0 +1,427 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style type="text/css"></style>
+  <link rel="stylesheet" type=text/css href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link
+    href=https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>MotorClub Styles</title>
+</head>
+
+<body class="bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="Logo.png" alt="" width="120" height="120" class="d-inline-block align-text-top">
+          </a>
+        </div>
+      </nav>
+      <a href="#" class="navbar-brand"><span class="text-danger"
+          style="font-family: Cyberpunk; font-size: 30px;">MotorStyle</span>Club</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-start"
+        aria-controls="navbar-start" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-start">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="font-size: 20px;">MotorClub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tienda.html" style="font-size: 20px;">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="InicioSesion.html" style="font-size: 20px;">Registrarse</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Carrusel de imagenes con animacion-->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="carouserCaferacer.jpg" class="d-block w-100" alt="carrusel 1">
+        <div class="carousel-caption">
+          <h3 style="color: red;">Las CafeRacer</h3>
+          <p>Las café racers son motocicletas personalizadas inspiradas en las motos de carreras de los años 60,
+            especialmente diseñadas para carreras en circuitos urbanos o "cafeterías". Se caracterizan por su estilo
+            minimalista, con modificaciones como manillares bajos, asientos recortados, y un enfoque en la ligereza y
+            agilidad. El objetivo es lograr una moto rápida, ágil y estética, con un diseño retro y funcional.</p>
+          <div class="dropdown">
+            <a class="btn btn-secondary btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Caferacer
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=N0wmWwMNPho">Ver video</a></li>
+              <li><a class="dropdown-item" href="#modCafe">Modificaciones</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="carouserScrambler.jpg" class="d-block w-100" alt="carrusel 2">
+        <div class="carousel-caption">
+          <h3 style="color: red;">Las Scrambler</h3>
+          <p>as motos scrambler son un tipo de motocicleta diseñada para ofrecer una conducción versátil, tanto en
+            carretera como fuera de ella. Estas motos se caracterizan por tener un estilo retro, inspirado en las
+            motocicletas de los años 60 y 70, pero con características modernas.</p>
+          <div class="dropdown">
+            <a class="btn btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Scrambler
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=zQoOQR4IPRE">Ver video</a></li>
+              <li><a class="dropdown-item" href="#modScrambler">Modificaciones</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="carouserChopper.jpg" class="d-block w-100" alt="carrusel 3">
+        <div class="carousel-caption">
+          <h3 class="py-7" style="color: red;">Las Chopper</h3>
+          <p>Las chopper son motocicletas personalizadas, originalmente populares en los años 60, caracterizadas por
+            modificaciones estéticas y funcionales que buscan un diseño único y distintivo. Se destacan por sus largas
+            horquillas, cuadros alargados, asientos personalizados y detalles artísticos.</p>
+          <div class="dropdown">
+            <a class="btn btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Chopper
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=QCV_t1Jd2ys">Ver video</a></li>
+              <li><a class="dropdown-item" href="#modChopper">Modificaciones</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Sección de detalles de la empresa -->
+  <section class="container py-5">
+    <div class="row">
+      <div class="col-md-6 mb-4 animate__animated animate__fadeInLeft">
+        <h2 style="color: red; text-align: center;">¿Quiénes somos?</h2>
+        <p style="color: white; text-align: center;">Somos un equipo de personas apasionadas por el mundo de las dos ruedas,
+          años de experiencia nos permite tener un gran criterio al momento de aconsejar e introducir a nuestros clientes
+          al mundo de motos personalizadas a la medida y al gusto del conductor,</p><p style="font-family: Cyberpunk; color: red; text-align: center;">Cumple tu sueño con nosotros.</p>
+      </div>
+      <div class="col-md-6 mb-4 animate__animated animate__fadeInRight">
+        <h2 style="color: red; text-align: center;">Nuestra Misión</h2>
+        <p style="color: white; text-align: center;">En MotorStyle, estamos comprometidos a despertar la
+          pasión por el mundo de las motocicletas personalizadas, ofreciendo una puerta de entrada para quienes desean
+          adentrarse en la cultura café racer, scrambler y chopper. Guiamos y acompañamos a los motociclistas,
+          principiantes y experimentados, a descubrir el estilo, la libertad y la comunidad única que representa cada
+          moto, promoviendo una experiencia auténtica y personalizada en cada viaje.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="border-top">
+    <h2 class="text-center" style="color: white; padding-top: 70px; padding-bottom: 30px;">Modificaciones para CafeRacer
+    </h2>
+  </div>
+  <section class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="card text-white text-center bg-cafe1 pb-2">
+            <div class="card-body" id="modCafe">
+              <h3 class="card-title" style="color: red;">Manillar bajo</h3>
+              <p>
+                El manillar bajo en las café racers se utiliza para mejorar la aerodinámica y ofrecer una postura más
+                agresiva y deportiva, lo que facilita un mayor control en la conducción a altas velocidades. Esta
+                configuración refleja el estilo de las motos de carreras de los años 60.
+              </p>
+              <button class="btn bg-danger text-white">Leer mas</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="card text-white text-center bg-cafe2 pb-2">
+            <div class="card-body">
+              <h3 class="card-title" style="color: red;">Chasis recortado</h3>
+              <p>
+                A las café racers se les recorta el chasis para hacerlas más ligeras y ágiles, mejorando su rendimiento
+                en velocidad y maniobrabilidad. Este ajuste también permite darles una estética más minimalista y
+                personalizada, acorde con el estilo retro.
+              </p>
+              <button class="btn bg-danger text-white">Leer mas</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="card text-white text-center bg-cafe3 pb-2">
+            <div class="card-body">
+              <h3 class="card-title" style="color: red;">Asiento monoplaza</h3>
+              <p>
+                Los asientos monoplaza se adaptan en este tipo motos para mejorar la aerodinámica, reducir peso y dar un
+                estilo
+                deportivo. También optimizan el manejo y la estabilidad, concentrando el peso del piloto en una posición
+                ideal para una conducción más ágil.
+              </p>
+              <button class="btn bg-danger text-white">Leer mas</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <h2 class="text-center" id="modScrambler" style="color: white; padding-top: 70px; padding-bottom: 30px;">
+    Modificaciones para Scrambler</h2>
+  <section class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="card text-white text-center bg-scrambler1 pb-2">
+            <div class="card-body">
+              <h3 class="card-title" style="color: red;">Llantas todo terreno</h3>
+              <p>
+                Estas llantas tienen un diseño con tacos más pronunciados que proporcionan tracción en superficies de
+                tierra, pero al mismo tiempo, son lo suficientemente suaves para ofrecer un manejo cómodo y estable en
+                asfalto.
+              </p>
+              <button class="btn bg-danger text-white">Leer mas</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="card text-white text-center bg-scrambler2 pb-2">
+            <div class="card-body">
+              <h3 class="card-title" style="color: red;">Asiento comodo</h3>
+              <p>
+                Deben tener un asiento cómodo porque están diseñadas para conducir tanto en
+                carretera como en terrenos difíciles. Los pilotos pueden estar durante largas horas en rutas
+                irregulares, y un asiento cómodo ayuda a reducir la fatiga.
+              </p>
+              <button class="btn bg-danger text-white">Leer mas</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="card text-white text-center bg-scrambler3 pb-2">
+            <div class="card-body">
+              <h3 class="card-title" style="color: red;">Buenas Suspension</h3>
+              <p>
+                Deben tener una buena suspensión porque se utilizan en terrenos irregulares y
+                accidentados, como caminos de tierra o rocas. Una suspensión de calidad absorbe los impactos, mejora la
+                estabilidad y el control.
+              </p>
+              <button class="btn bg-danger text-white">Leer mas</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <h2 class="text-center" style="color: white; padding-top: 70px; padding-bottom: 30px;">Modificaciones para Chopper
+  </h2>
+  <section class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="card text-white text-center bg-chopper1 pb-2">
+            <div class="card-body">
+              <h3 class="card-title">Manillar alto</h3>
+              <p>
+                En las motocicletas tipo chopper se implementan los manillar altos para contar con una mayor comidad de
+                cara al pasajero
+                sobre todo en viajes de largo recorrido ademas de aportar con un estilo clasico y atractivo
+              </p>
+              <button class="btn bg-danger text-white">Leer mas</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="card text-white text-center bg-chopper2 pb-2">
+            <div class="card-body">
+              <h3 class="card-title">Amortiguador bajo</h3>
+              <p>
+                Desde el punto de vista funcional, una suspensión baja también puede ofrecer una mayor estabilidad en
+                líneas rectas, pero a costa de reducir la capacidad de absorción de impactos y la comodidad en terrenos
+                irregulares.
+              </p>
+              <button class="btn bg-danger text-white">Leer mas</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="card text-white text-center bg-chopper3 pb-2">
+            <div class="card-body">
+              <h3 class="card-title">Estilo retro</h3>
+              <p>
+                Esta estética vintage o retro se asocia con la libertad, la rebeldía y el espíritu de personalización de
+                la época, buscando emular un estilo clásico que combina formas sencillas, líneas limpias y detalles
+                mecánicos visibles.
+              </p>
+              <button class="btn bg-danger text-white">Leer mas</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="banner">
+    <!-- Servicios -->
+    <section id="services" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5" style="color: red;">Nuestros Servicios</h2>
+        <div class="row text-center">
+          <div class="col-md-4 mb-4">
+            <div class="card bg-dark text-white">
+              <div class="card-body"> <i class="bi bi-tools fs-1 mb-3"></i>
+                <h5 class="card-title">Personalización</h5>
+                <p class="card-text">Transforma tu moto en una máquina única con nuestros servicios de personalización
+                  de alta calidad.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card bg-dark text-white">
+              <div class="card-body"> <i class="bi bi-speedometer2 fs-1 mb-3"></i>
+                <h5 class="card-title">Reparación</h5>
+                <p class="card-text">Nuestros expertos garantizan la mejor reparación y mantenimiento para tu moto en
+                  todo tipo de situaciones.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card bg-dark text-white">
+              <div class="card-body"> <i class="bi bi-gear-wide-connected fs-1 mb-3"></i>
+                <h5 class="card-title">Accesorios</h5>
+                <p class="card-text">Encuentra accesorios exclusivos y de alta calidad para completar tu estilo en todo
+                  tipo de
+                  carreteras
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="container py-5">
+    <h2 class="text-center mb-4" style="color: red;">Preguntas Frecuentes</h2>
+    <div class="accordion" id="accordionExample">
+      <!-- Primer ítem -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            ¿Qué es una Cafe Racer?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Una Cafe Racer es un tipo de motocicleta personalizada que se originó en el Reino Unido en los años 50,
+              caracterizada por su estilo deportivo y minimalista.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Segundo ítem -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            ¿Cuál es la diferencia entre Scrambler y Chopper?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Las Scrambler están diseñadas para ser versátiles y poder ir tanto en carretera como fuera de ella,
+              mientras
+              que las Chopper son conocidas por su diseño único y estilo relajado.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tercer ítem -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            ¿Cómo elegir los mejores accesorios para mi moto?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Elegir los accesorios depende del estilo que deseas, el tipo de conducción y el terreno donde utilizarás
+              tu
+              moto. Un asesor especializado puede ayudarte a tomar la mejor decisión.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+<footer class="text-center text-light py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5 style="color: red;">Enlaces</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="text-light">Inicio</a></li>
+          <li><a href="#services" class="text-light">Servicios</a></li>
+          <li><a href="#projects" class="text-light">Proyectos</a></li>
+          <li><a href="#contact" class="text-light">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5 style="color: red;">Contáctanos</h5>
+        <p><i class="bi bi-telephone"></i> +57 3053482563</p>
+        <p><i class="bi bi-envelope"></i> contacto@motorclub.com</p>
+      </div>
+      <div class="col-md-4">
+        <h5 style="color: red;">Síguenos</h5>
+        <a href="#" class="text-light"><i class="bi bi-facebook fs-3 mx-2"></i></a>
+        <a href="#" class="text-light"><i class="bi bi-instagram fs-3 mx-2"></i></a>
+        <a href="#" class="text-light"><i class="bi bi-twitter fs-3 mx-2"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</html>
